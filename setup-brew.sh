@@ -40,3 +40,5 @@ brew install --cask appcleaner
 
 # Cleanup after install
 brew cleanup
+
+echo "Everything is installed. Some apps may require a restart/logout"

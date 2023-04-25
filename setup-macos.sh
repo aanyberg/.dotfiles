@@ -39,3 +39,5 @@ defaults write com.apple.finder _FXSortFoldersFirst -bool true
 for app in "Dock" "Finder"; do
   killall "${app}" > /dev/null 2>&1
 done
+
+echo "Everything is done. Some changes may require a restart/logout"
