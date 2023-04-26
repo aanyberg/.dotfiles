@@ -35,6 +35,7 @@ brew install --cask microsoft-teams
 brew install --cask onedrive
 brew install --cask microsoft-auto-update
 brew install --cask microsoft-office
+brew install --cask microsoft-edge
 brew install --cask bitwarden
 brew install --cask appcleaner
 
