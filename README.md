@@ -1,7 +1,8 @@
 # Setup files for fresh installs
 
-Install Homebrew
-[https://brew.sh/] (https://brew.sh/)
+Install Homebrew.
+
+[https://brew.sh/](https://brew.sh/)
 
 1. Run Brew File
 ```
