@@ -38,6 +38,7 @@ brew install --cask microsoft-office
 brew install --cask microsoft-edge
 brew install --cask bitwarden
 brew install --cask appcleaner
+brew install --cask plex-media-server
 
 # Cleanup after install
 brew cleanup
