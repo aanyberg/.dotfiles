@@ -25,7 +25,6 @@ brew install --cask displaylink
 brew install --cask docker
 brew install --cask logi-options-plus
 brew install --cask transmission
-brew install --cask tunnelblick
 brew install --cask spotify
 brew install --cask stats
 brew install --cask bettertouchtool
@@ -38,7 +37,6 @@ brew install --cask bitwarden
 brew install --cask appcleaner
 brew install --cask plex-media-server
 brew install --cask teamviewer
-brew install --cask brave-browser
 
 # Cleanup after install
 brew cleanup
