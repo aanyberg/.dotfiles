@@ -37,6 +37,7 @@ brew install --cask bitwarden
 brew install --cask appcleaner
 brew install --cask plex-media-server
 brew install --cask teamviewer
+brew install --cask figma
 
 # Cleanup after install
 brew cleanup
