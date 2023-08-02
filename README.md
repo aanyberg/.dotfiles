@@ -13,7 +13,7 @@ source ~/.dotfiles/setup-brew.sh
 Clone Github repo down to your hidden `.dotfiles` folder.
 
 ```
-git clone git@github.com:pawelgrzybek/dotfiles.git ~/.dotfile
+git clone git@github.com:aanyberg/.dotfiles.git
 ```
 
 3. Run MacOS Setup File
