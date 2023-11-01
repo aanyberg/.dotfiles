@@ -1,19 +1,17 @@
 # Setup files for fresh installs
+A quick way to set up your basic settings and applications for a fresh install of macOS or for when
+you change your Mac for a newer model.
 
-Install Homebrew.
-
-[https://brew.sh/](https://brew.sh/)
-
-1. Run Brew File
-```
-source ~/.dotfiles/setup-brew.sh
-```
-
-2. Setup Git Repo
+1. Setup Git Repo
 Clone Github repo down to your hidden `.dotfiles` folder.
 
 ```
 git clone git@github.com:aanyberg/.dotfiles.git
+```
+
+2. Run Brew File
+```
+source ~/.dotfiles/setup-brew.sh
 ```
 
 3. Run MacOS Setup File

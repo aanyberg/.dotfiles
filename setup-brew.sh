@@ -5,6 +5,9 @@ brew tap homebrew/cask-versions
 brew install git
 brew install node
 
+# Install brew
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+
 # Formulae
 brew install pyenv
 brew install unixodbc
@@ -14,7 +17,6 @@ brew install php
 
 # Cask
 brew install --cask google-chrome
-brew install --cask google-chrome-canary
 brew install --cask firefox
 brew install --cask linearmouse
 brew install --cask iterm2
@@ -37,6 +39,7 @@ brew install --cask appcleaner
 brew install --cask plex-media-server
 brew install --cask teamviewer
 brew install --cask figma
+brew install --cask visual-studio-code
 
 # Cleanup after install
 brew cleanup
