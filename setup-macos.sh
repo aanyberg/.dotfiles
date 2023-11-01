@@ -23,7 +23,7 @@ defaults write NSGlobalDomain AppleShowAllExtensions -bool true
 # Finder > Preferences > Show wraning before changing an extension
 defaults write com.apple.finder FXEnableExtensionChangeWarning -bool false
 
-# Finder > Preferences > Show wraning before removing from iCloud Drive
+# Finder > Preferences > Show warning before removing from iCloud Drive
 defaults write com.apple.finder FXEnableRemoveFromICloudDriveWarning -bool false
 
 # Finder > View > As List
@@ -33,6 +33,9 @@ defaults write com.apple.finder FXPreferredViewStyle -string "Nlsv"
 defaults write com.apple.finder ShowPathbar -bool true
 
 defaults write com.apple.finder _FXSortFoldersFirst -bool true
+
+# Finder > Settings > Advanced > When performing a search
+defaults write com.apple.finder "FXDefaultSearchScope" -string "SCcf" && killall Finder
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 
