@@ -40,6 +40,7 @@ brew install --cask plex-media-server
 brew install --cask teamviewer
 brew install --cask figma
 brew install --cask visual-studio-code
+brew install --cask adobe-creative-cloud
 
 # Cleanup after install
 brew cleanup
