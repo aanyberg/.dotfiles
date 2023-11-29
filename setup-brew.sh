@@ -41,6 +41,7 @@ brew install --cask teamviewer
 brew install --cask figma
 brew install --cask visual-studio-code
 brew install --cask adobe-creative-cloud
+brew install --cask macfuse
 
 # Cleanup after install
 brew cleanup

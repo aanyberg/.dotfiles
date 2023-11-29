@@ -3,7 +3,7 @@ A quick way to set up your basic settings and applications for a fresh install o
 you change your Mac for a newer model.
 
 1. Setup Git Repo
-Clone Github repo down to your hidden `.dotfiles` folder.
+Clone Github repo down to your `.dotfiles` folder.
 
 ```
 git clone git@github.com:aanyberg/.dotfiles.git
