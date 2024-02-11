@@ -42,6 +42,7 @@ brew install --cask figma
 brew install --cask visual-studio-code
 brew install --cask adobe-creative-cloud
 brew install --cask macfuse
+brew install --cask veracrypt
 
 # Cleanup after install
 brew cleanup
