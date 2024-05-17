@@ -1,15 +1,17 @@
+# Install brew
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+
 brew upgrade
 brew tap homebrew/cask-versions
 
 # CLI Tools
 brew install git
 brew install node
+brew install pyenv
+brew install pipenv
 
-# Install brew
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
 # Formulae
-brew install pyenv
 brew install unixodbc
 brew install openssl@1.1
 brew install openssl@3
@@ -19,7 +21,6 @@ brew install php
 brew install --cask google-chrome
 brew install --cask firefox
 brew install --cask linearmouse
-brew install --cask iterm2
 brew install --cask fork
 brew install --cask mullvadvpn
 brew install --cask cryptomator
@@ -40,9 +41,10 @@ brew install --cask plex-media-server
 brew install --cask teamviewer
 brew install --cask figma
 brew install --cask visual-studio-code
-brew install --cask adobe-creative-cloud
 brew install --cask macfuse
 brew install --cask veracrypt
+brew install --cask pycharm-ce
+brew install --cask rectangle
 
 # Cleanup after install
 brew cleanup
