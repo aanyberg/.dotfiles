@@ -1,5 +1,5 @@
 # Install brew
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+/bin/bash sudo -v -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
 brew upgrade
 brew tap homebrew/cask-versions
@@ -8,7 +8,6 @@ brew tap homebrew/cask-versions
 brew install git
 brew install node
 brew install pyenv
-brew install pipenv
 
 
 # Formulae
@@ -31,7 +30,8 @@ brew install --cask transmission
 brew install --cask spotify
 brew install --cask stats
 brew install --cask bettertouchtool
-brew install --cask alfred
+# brew install --cask alfred
+brew install --cask raycast
 brew install --cask microsoft-teams
 brew install --cask microsoft-auto-update
 brew install --cask microsoft-office
