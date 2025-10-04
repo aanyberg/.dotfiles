@@ -4,47 +4,68 @@
 brew upgrade
 brew tap homebrew/cask-versions
 
-# CLI Tools
-brew install git
-brew install node
-brew install pyenv
-
-
 # Formulae
-brew install unixodbc
-brew install openssl@1.1
-brew install openssl@3
-brew install php
+brew install --formulae carapace
+brew install --formulae clib
+brew install --formulae codex
+brew install --formulae e2fsprogs
+brew install --formulae fzf
+brew install --formulae git
+brew install --formulae graphviz
+brew install --formulae jfrog-cli
+brew install --formulae libxml2
+brew install --formulae libxslt
+brew install --formulae node
+brew install --formulae openssl@3
+brew install --formulae php
+brew install --formulae pipenv
+brew install --formulae pipx
+brew install --formulae pkgconf
+brew install --formulae pyenv
+brew install --formulae repo
+brew install --formulae sniffnet
+brew install --formulae starship
+brew install --formulae tree
+brew install --formulae unixodbc
+brew install --formulae wget
+brew install --formulae xcodegen
+brew install --formulae zoxide
+brew install --formulae zsh-completions
 
 # Cask
-brew install --cask google-chrome
-brew install --cask firefox
-brew install --cask linearmouse
-brew install --cask fork
-brew install --cask mullvadvpn
-brew install --cask cryptomator
-brew install --cask displaylink
-brew install --cask docker
-brew install --cask logi-options-plus
-brew install --cask transmission
-brew install --cask spotify
-brew install --cask stats
-brew install --cask bettertouchtool
-# brew install --cask alfred
-brew install --cask raycast
-brew install --cask microsoft-teams
-brew install --cask microsoft-auto-update
-brew install --cask microsoft-office
-brew install --cask bitwarden
-brew install --cask appcleaner
-brew install --cask plex-media-server
-brew install --cask teamviewer
-brew install --cask figma
-brew install --cask visual-studio-code
-brew install --cask macfuse
-brew install --cask veracrypt
-brew install --cask pycharm-ce
-brew install --cask rectangle
+brew install --cask bitwarden-cli
+brew install --cask carapace
+brew install --cask clib
+brew install --cask codex
+brew install --cask e2fsprogs
+brew install --cask fzf
+brew install --cask git
+brew install --cask graphviz
+brew install --cask imagemagick
+brew install --cask jfrog-cli
+brew install --cask libxml2
+brew install --cask libxslt
+brew install --cask node
+brew install --cask ollama
+brew install --cask openconnect
+brew install --cask openssl@3
+brew install --cask php
+brew install --cask pipenv
+brew install --cask pipx
+brew install --cask pkgconf
+brew install --cask pyenv
+brew install --cask python-tk@3.10
+brew install --cask python-tk@3.12
+brew install --cask repo
+brew install --cask sniffnet
+brew install --cask starship
+brew install --cask tree
+brew install --cask unixodbc
+brew install --cask wget
+brew install --cask xcodegen
+brew install --cask zoxide
+brew install --cask zsh-completions
+
 
 # Cleanup after install
 brew cleanup
