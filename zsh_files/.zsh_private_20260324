@@ -1,0 +1,21 @@
+export JIRA_TOKEN=""
+export PATH="$HOME/.pyenv/shims:$PATH:$HOME/TokenUpdater:$HOME/.local/bin"
+export SSL_CERT_FILE=/opt/homebrew/etc/openssl@3/cert.pem
+export REQUESTS_CA_BUNDLE=/opt/homebrew/etc/openssl@3/cert.pem
+export PYENV_ROOT="$HOME/.pyenv"
+
+bindkey '^[[A' history-beginning-search-backward
+bindkey '^[[B' history-beginning-search-forward
+
+# ===== ALIASES =====
+alias ls='ls -G' ll='ls -lAG' zcp='zmv -C' zln='zmv -L'
+alias brew='env PATH="${PATH//$PYENV_ROOT\/shims:/}" brew'
+
+# ===== LAZY-LOADED PLUGINS =====
+# pyenv (deferred)
+pyenv() {
+  unset -f pyenv
+  eval "$(command pyenv init -)"
+  pyenv "$@"
+}
+
